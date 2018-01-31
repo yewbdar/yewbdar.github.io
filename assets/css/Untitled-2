@@ -1,0 +1,116 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
+    
+}
+.header{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height:115px;
+    border-bottom: 1.5px solid #cccccc;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+
+}
+.name-section ,.menu-section{
+  
+  padding: 2.6%;
+  display: inline-block;
+  position: relative;
+  
+
+}
+.name-section{
+ margin-left: 12%;
+ position: relative;
+ width:14%;
+ 
+}
+.menu-section{
+  position: relative;
+  top: 1%;
+  right: 1px;
+  margin-left: 34%;
+  width: 25%;
+  color: #cccccc;
+  font-size: 20px;
+  
+}
+li{
+    display: inline;
+    list-style:none;
+}
+.body{
+  padding-top: 3%;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-image: url("../images/ep_naturalwhite.png");
+  
+}
+.aboutme-section,.media-section{
+  background-color: white;
+  position: relative;
+  display: inline;
+}
+.aboutme-section{
+ margin-left: 12%;
+ width: 650px;
+ float: left;
+ height: 400px;
+ padding: 25px;
+ margin-right: 20px;
+}
+.media-section{
+ float: right;
+ margin-right: 120px;
+ width: 270px;
+ height: 155px;
+ padding: 30px;
+ text-align: center;
+
+}
+.footer{
+    display: inline-block;
+background-color: #666666;
+padding: 2%;
+position: relative;
+bottom: 0%;
+width: 96%;
+text-align: center;
+border-top: 7px solid #4aaaa5;
+
+color: white;
+}
+.horazontal-line
+{ 
+  border:1.5px solid #cccccc;
+}
+.my-image
+{
+  float: left; 
+}
+h1{
+    font-weight: bold;
+    color: #4aaaa5;
+}
+hr{
+    border:0.5px solid #cccccc;
+    text-align: center;
+}
+.img{
+    width:70px;
+    height:70px;
+    margin-right:2%;
+}
+.media-list {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left:0px; /** to override default ul property **/
+    padding: 0px;
+}
+.container{
+    position:relative;
+    top:0;
+}
